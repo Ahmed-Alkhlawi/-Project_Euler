@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Euler Problem 1</title>
+	<script type="text/javascript" src="scripts/Euler_script.js">	 </script>
+
+</head>
+<body>
+<center>
+	<h1> Euler Problem 1 Solution </h1>
+	<p style="color:black;"> 	
+	If we list all the natural numbers below 10 that are multiples of 3 or 5, we get 3, 5, 6 and 9. The sum of these multiples is 23.
+
+	Find the sum of all the multiples of 3 or 5 below 1000.
+</p>
+
+<p> you can pick different numbers to test from the list </p>
+
+
+<select name="first number list" id="num1">
+  <option value="1">1</option>
+  <option value="2">2</option>
+  <option value="3"selected="selected">3</option>
+  <option value="4">4</option>
+  <option value="5">5</option>
+  <option value="6">6</option>
+  <option value="7">7</option>
+  <option value="8">8</option>
+  <option value="9">9</option>
+</select>
+<p style="display: inline-block;"> &nbsp; *  &nbsp; </p>
+<select name="second number list" id="num2">
+  <option value="1">1</option>
+  <option value="2">2</option>
+  <option value="3">3</option>
+  <option value="4">4</option>
+  <option value="5" selected="selected">5</option>
+  <option value="6">6</option>
+  <option value="7">7</option>
+  <option value="8">8</option>
+  <option value="9">9</option>
+</select>
+<p style="display: inline-block;"> &nbsp; Below &nbsp; </p>
+
+<input id="limit" type="number" name="" value="1000"> </input>
+
+ <p></p>
+<button onclick="generate()"> Generate List</button>
+
+<p></p>
+<table>
+	<tr >
+		<td style="border: 1px black solid; width: 160px; height: 28px; box-shadow: 6px 8px 5px #888888;" id="result"> 0 </td>
+	</tr>
+</table>
+
+</center>
+
+
+</body>
+</html>
